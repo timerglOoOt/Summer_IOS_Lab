@@ -122,7 +122,7 @@ class NationalLibrary {
 
 struct Reader {
     let name: String
-    var age: Int
+    public var age: Int
     private var id: Int = Counter().counter()
     private var listOfLibraryItems: [LibraryItem] = []
     
@@ -174,9 +174,9 @@ struct Library {
 
 
 struct Room {
-    var numberOfComputers: Int
-    var numberOfTables: Int
-    let roomNumber: Int
+    fileprivate var numberOfComputers: Int
+    fileprivate var numberOfTables: Int
+    fileprivate let roomNumber: Int
     
     mutating func setNumberOfComputers(newNumber: Int) {
         if newNumber >= 0 {
