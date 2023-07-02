@@ -109,17 +109,25 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uw-GW-35G">
-                                                    <rect key="frame" x="76" y="11" width="245" height="28"/>
+                                                    <rect key="frame" x="76" y="1" width="245" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                     <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQB-jH-0Yw">
+                                                    <rect key="frame" x="76" y="28" width="245" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                                    <color key="textColor" red="0.5603822987" green="0.57051385310000002" blue="0.55802726570000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="cellImageView" destination="4dY-vI-ANg" id="L1m-If-949"/>
-                                            <outlet property="cellLabel" destination="2Uw-GW-35G" id="4ag-WV-e1d"/>
+                                            <outlet property="cellLabelName" destination="2Uw-GW-35G" id="o1B-Yj-ZVD"/>
+                                            <outlet property="cellLabelNumber" destination="JQB-jH-0Yw" id="hYc-NI-wVw"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -44,10 +44,7 @@ class AuthorizationViewController: UIViewController {
         
         navigationController?.pushViewController(contactsVC, animated: true)
         
-        let contactCell = ListTableViewData(title: phoneNumber, image: UIImage(imageLiteralResourceName: "contact"))
-        
 
-        contactsVC.data.append(contactCell)
         phoneTextField.text = nil
         passwordTextField.text = nil
     }
